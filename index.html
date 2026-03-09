@@ -12,31 +12,55 @@
 <body>
   <header class="hero" id="top">
     <nav class="nav container">
-      <a class="brand" href="#top">Nikhiliya Maharjan</a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <a class="brand" href="#top">
+        <span class="brand-mark">NM</span>
+        <span class="brand-copy">
+          <strong>Nikhiliya Maharjan</strong>
+          <small>Portfolio 2026</small>
+        </span>
+      </a>
+      <div class="nav-shell">
+        <div class="nav-status">Available for Internship</div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
 
     <div class="hero-content container">
-      <div class="hero-text">
-        <p class="tag">BCA Final-Year Student</p>
-        <h1>Building practical web and software solutions with Java, PHP, and MySQL.</h1>
-        <p class="summary">
+      <div class="hero-text reveal">
+        <p class="tag fly-item">BCA Final-Year Student</p>
+        <h1 class="hero-title">Building practical web and software solutions with Java, PHP, and MySQL.</h1>
+        <p class="summary fly-item">
           Motivated and detail-oriented student seeking internship opportunities to apply development skills in real-world projects.
         </p>
-        <div class="hero-actions">
+        <div class="hero-highlights fly-item">
+          <div class="highlight-card">
+            <span>Focus</span>
+            <strong>Web Development</strong>
+          </div>
+          <div class="highlight-card">
+            <span>Stack</span>
+            <strong>Java, PHP, MySQL</strong>
+          </div>
+          <div class="highlight-card">
+            <span>Goal</span>
+            <strong>Internship Ready</strong>
+          </div>
+        </div>
+        <div class="hero-actions fly-item">
           <a class="btn primary" href="#projects">View Projects</a>
           <a class="btn secondary" href="#contact">Contact Me</a>
         </div>
       </div>
 
-      <div class="hero-image" id="imageSection">
+      <div class="hero-image reveal" id="imageSection">
+        <div class="image-glow"></div>
         <img id="profileImage" src="nikhiliya.png" alt="Nikhiliya Maharjan" />
         <div class="image-placeholder" id="imagePlaceholder">
           <span>Add <strong>nikhiliya.png</strong><br />to show your photo</span>
@@ -46,14 +70,17 @@
   </header>
 
   <main>
-    <section class="section container" id="about">
+    <section class="section section-intro" id="about">
+      <div class="container reveal">
       <h2>Career Objective</h2>
       <p>
         Motivated and detail-oriented Bachelor in Computer Applications (BCA) final-year student, seeking an internship opportunity to apply programming knowledge and development skills in a real-world setting. Eager to contribute to software and web-based projects, especially in Java, PHP, and database-driven applications, while gaining hands-on experience in a professional environment.
       </p>
+      </div>
     </section>
 
-    <section class="section container" id="education">
+    <section class="section section-panel" id="education">
+      <div class="container reveal">
       <h2>Academic Background</h2>
       <div class="card">
         <h3>Bachelor in Computer Applications (BCA)</h3>
@@ -63,9 +90,11 @@
           <strong>Courses:</strong> Java, Web Technology, Network Programming, Mobile Programming, Database Management Systems, Software Engineering, Applied Economics
         </p>
       </div>
+      </div>
     </section>
 
-    <section class="section container" id="skills">
+    <section class="section section-grid" id="skills">
+      <div class="container reveal">
       <h2>Technical Skills</h2>
       <div class="grid two">
         <div class="card">
@@ -87,9 +116,11 @@
           </ul>
         </div>
       </div>
+      </div>
     </section>
 
-    <section class="section container" id="projects">
+    <section class="section section-accent" id="projects">
+      <div class="container reveal">
       <h2>Academic Projects</h2>
       <div class="grid three">
         <article class="card project">
@@ -113,9 +144,11 @@
           <p>Real-time booking, admin management, and schedule overview.</p>
         </article>
       </div>
+      </div>
     </section>
 
-    <section class="section container" id="interests">
+    <section class="section section-panel" id="interests">
+      <div class="container reveal">
       <h2>Internship Interest Areas</h2>
       <div class="chip-group">
         <span class="chip">Java Development</span>
@@ -125,9 +158,11 @@
         <span class="chip">UI/UX Design</span>
         <span class="chip">Android Development</span>
       </div>
+      </div>
     </section>
 
-    <section class="section container" id="soft-skills">
+    <section class="section section-grid" id="soft-skills">
+      <div class="container reveal">
       <h2>Soft Skills</h2>
       <ul class="simple-list">
         <li>Problem-solving and analytical thinking</li>
@@ -135,25 +170,31 @@
         <li>Team collaboration and communication</li>
         <li>Self-motivated and eager to learn new technologies</li>
       </ul>
+      </div>
     </section>
 
-    <section class="section container" id="languages">
+    <section class="section section-intro" id="languages">
+      <div class="container reveal">
       <h2>Languages</h2>
       <div class="chip-group">
         <span class="chip">Nepali (Native)</span>
         <span class="chip">English (Fluent)</span>
         <span class="chip">Newari</span>
       </div>
+      </div>
     </section>
 
-    <section class="section container" id="availability">
+    <section class="section section-panel" id="availability">
+      <div class="container reveal">
       <h2>Availability</h2>
       <p>
         Available for full-time or part-time internship starting immediately. Flexible with remote or in-office settings.
       </p>
+      </div>
     </section>
 
-    <section class="section container" id="contact">
+    <section class="section section-contact" id="contact">
+      <div class="container reveal">
       <h2>Contact</h2>
       <div class="grid two">
         <div class="card">
@@ -166,6 +207,7 @@
           <p><strong>GitHub:</strong> <a href="https://github.com/nikhiliya" target="_blank" rel="noreferrer">github.com/nikhiliya</a></p>
           <p><strong>LinkedIn:</strong> <a href="https://np.linkedin.com/in/nikhiliya-maharjan-62374a381" target="_blank" rel="noreferrer">linkedin.com/in/nikhiliya-maharjan-62374a381</a></p>
         </div>
+      </div>
       </div>
     </section>
   </main>
